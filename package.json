@@ -1,0 +1,65 @@
+{
+  "name": "instadlp",
+  "version": "1.0.0",
+  "description": "CLI that extracts Instagram post, reel, and highlight media URLs by driving a real browser through Instagram's private web API",
+  "keywords": [
+    "instagram",
+    "scraper",
+    "cli",
+    "puppeteer",
+    "media",
+    "highlights",
+    "reels"
+  ],
+  "homepage": "https://github.com/Tarnishsilver/instadlp#readme",
+  "bugs": {
+    "url": "https://github.com/Tarnishsilver/instadlp/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tarnishsilver/instadlp.git"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Tarnishsilver"
+  },
+  "type": "commonjs",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "bin": {
+    "instadlp": "./entry.js"
+  },
+  "files": [
+    "entry.js",
+    "cli.js",
+    "helper/",
+    "browserManager/",
+    "services/",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "jest --coverage",
+    "test:unit": "jest tests/unit",
+    "test:integration": "jest tests/integration",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "prepublishOnly": "npm test"
+  },
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "cli-progress": "^3.12.0",
+    "commander": "^14.0.3",
+    "puppeteer": "^24.43.1",
+    "winston": "^3.19.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.5",
+    "eslint": "^9.39.5",
+    "jest": "^30.4.2",
+    "prettier": "^3.9.10"
+  }
+}

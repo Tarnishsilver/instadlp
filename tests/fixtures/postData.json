@@ -1,0 +1,81 @@
+{
+  "items": [
+    {
+      "id": "post_1",
+      "media_type": 1,
+      "image_versions2": {
+        "candidates": [
+          { "url": "https://scontent.fbcdn.net/v/img_640.jpg", "width": 640, "height": 640 },
+          { "url": "https://scontent.fbcdn.net/v/img_1080.jpg", "width": 1080, "height": 1080 },
+          { "url": "https://scontent.fbcdn.net/v/img_320.jpg", "width": 320, "height": 320 }
+        ]
+      }
+    },
+    {
+      "id": "post_2",
+      "media_type": 2,
+      "video_versions": [
+        { "url": "https://scontent.fbcdn.net/v/video_720.mp4", "width": 720, "height": 1280 }
+      ],
+      "image_versions2": {
+        "candidates": [
+          { "url": "https://scontent.fbcdn.net/v/thumb_640.jpg", "width": 640, "height": 640 }
+        ]
+      }
+    },
+    {
+      "id": "post_3_carousel",
+      "carousel_media": [
+        {
+          "media_type": 1,
+          "image_versions2": {
+            "candidates": [
+              {
+                "url": "https://scontent.fbcdn.net/v/carousel_1_1080.jpg",
+                "width": 1080,
+                "height": 1080
+              },
+              {
+                "url": "https://scontent.fbcdn.net/v/carousel_1_640.jpg",
+                "width": 640,
+                "height": 640
+              }
+            ]
+          }
+        },
+        {
+          "media_type": 2,
+          "video_versions": [
+            {
+              "url": "https://scontent.fbcdn.net/v/carousel_2_video.mp4",
+              "width": 720,
+              "height": 1280
+            }
+          ],
+          "image_versions2": {
+            "candidates": [
+              {
+                "url": "https://scontent.fbcdn.net/v/carousel_2_thumb.jpg",
+                "width": 640,
+                "height": 640
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "post_4_no_media"
+    },
+    {
+      "id": "post_5_non_fbcdn",
+      "media_type": 1,
+      "image_versions2": {
+        "candidates": [
+          { "url": "https://other-cdn.example.com/img.jpg", "width": 1080, "height": 1080 }
+        ]
+      }
+    }
+  ],
+  "next_max_id": "next_page_cursor_123"
+}

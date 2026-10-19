@@ -1,0 +1,34 @@
+{
+  "tray": [
+    { "id": "highlight:123", "title": "Travel" },
+    { "id": "highlight:456", "title": "Food" }
+  ],
+  "reels_media": [
+    {
+      "id": "highlight:123",
+      "items": [
+        {
+          "video_versions": [
+            { "url": "https://scontent.fbcdn.net/v/hl_video_1.mp4", "width": 720 }
+          ],
+          "image_versions2": {
+            "candidates": [{ "url": "https://scontent.fbcdn.net/v/hl_thumb_1.jpg", "width": 640 }]
+          }
+        },
+        {
+          "image_versions2": {
+            "candidates": [{ "url": "https://scontent.fbcdn.net/v/hl_img_2.jpg", "width": 1080 }]
+          }
+        }
+      ]
+    },
+    {
+      "id": "highlight:456",
+      "items": [
+        {
+          "video_versions": [{ "url": "https://scontent.fbcdn.net/v/hl_video_3.mp4", "width": 720 }]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+# Dependencies
+node_modules/
+
+# Test and coverage output
+coverage/
+logs/
+*.log
+npm-debug.log*
+
+# Scrape output — contains media URLs, not source
+output/
+services/targets/
+
+# Local environment and secrets
+.env
+.env.local
+.env.*.local
+
+# Chrome profile directories. These contain live Instagram session cookies
+# and must never be committed.
+chrome-puppeteer-profile/
+.puppeteer-profile/
+
+# Editor and OS noise
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
